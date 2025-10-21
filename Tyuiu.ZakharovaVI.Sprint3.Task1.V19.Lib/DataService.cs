@@ -9,8 +9,8 @@ namespace Tyuiu.ZakharovaVI.Sprint3.Task1.V19.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries * (Math.Cos(value) + (startValue / 4));
-                startValue++;
+                multSeries *= Math.Cos(value) + (startValue / 4.0);
+                startValue++; 
             }
             return Math.Round(multSeries, 3);
 

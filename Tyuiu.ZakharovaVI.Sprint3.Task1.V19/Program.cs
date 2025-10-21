@@ -29,6 +29,7 @@ namespace Tyuiu.ZakharovaVI.Sprint3.Task1.V19
             int startValue = 1;
             int stopValue = 9;
 
+
             Console.WriteLine("Переменная Х = " + value);
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);

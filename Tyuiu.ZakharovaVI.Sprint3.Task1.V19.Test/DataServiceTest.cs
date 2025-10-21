@@ -2,6 +2,7 @@
 using Tyuiu.ZakharovaVI.Sprint3.Task1.V19.Lib;
 
 namespace Tyuiu.ZakharovaVI.Sprint3.Task1.V19.Test
+
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -17,7 +18,7 @@ namespace Tyuiu.ZakharovaVI.Sprint3.Task1.V19.Test
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 5.729;
+            double wait = 96.895;
             Assert.AreEqual(wait, res);
         }
     }
