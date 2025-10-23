@@ -13,7 +13,7 @@ namespace Tyuiu.ZakharovaVI.Sprint3.Task1.V19.Lib
                 startValue++; 
             }
             return Math.Round(multSeries, 3);
-
+           
         }
     }
 }
